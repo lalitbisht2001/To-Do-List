@@ -1,0 +1,240 @@
+.main_box {
+    height: 100vh;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.listbox {
+    background-color: whitesmoke;
+    height: 55vh;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    /* border: solid red; */
+    gap: 1em;
+    padding: 1em;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}
+
+.div {
+    display: flex;
+    gap: 1em;
+    color: rgb(103, 102, 102);
+    height: 2.6em;
+    align-items: center;
+
+    p {
+        font-family: sans-serif;
+        width: 23%;
+        font-size: 1.2em;
+    }
+
+    input {
+        height: 3em;
+        width: 70%;
+        border: 1.5px solid rgb(157, 156, 156);
+        border-radius: 1em;
+        padding-left: 1.5em;
+        outline: none;
+    }
+
+    select {
+        height: 3em;
+        width: 70%;
+        border: 1.5px solid rgb(157, 156, 156);
+        border-radius: 1em;
+        color: rgb(103, 102, 102);
+        padding-left: 1.5em;
+    }
+}
+
+.note {
+    /* border: 1px solid black; */
+    display: flex;
+    gap: 1em;
+    height: 3.8em;
+    align-items: center;
+    color: rgb(103, 102, 102);
+
+    p {
+        font-family: sans-serif;
+        width: 23%;
+        font-size: 1.2em;
+    }
+
+    input {
+        width: 70%;
+        height: 100%;
+        padding-left: 1em;
+        outline: none;
+        border: 1.5px solid rgb(156, 155, 155);
+    }
+}
+
+.date_time {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    div {
+        display: flex;
+        gap: 2em;
+        width: 15%;
+
+        /* border: 1px solid black; */
+        p {
+            width: 100%;
+            color: rgb(193, 139, 139);
+        }
+    }
+}
+
+.btnbox {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn {
+    height: 2.4em;
+    font-size: 1.2em;
+    width: 15%;
+    background-color: red;
+    color: white;
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transform: scale(1.1);
+    transition: all 0.3s ease-in;
+    cursor: pointer;
+}
+
+.btn:active {
+    transform: scale(1.0);
+    box-shadow: none;
+}
+
+@media screen and (max-width : 1015px) {
+    .main_box {
+        height: 100vh;
+        width: 100%;
+        background-color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 2px solid black;
+    }
+
+    .listbox {
+        background-color: whitesmoke;
+        height: 55vh;
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+        border: solid red;
+        gap: 1em;
+        padding: 1em;
+        box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+    }
+
+    .div {
+        display: flex;
+        gap: 1em;
+        color: rgb(103, 102, 102);
+        height: 2.6em;
+        align-items: center;
+
+        p {
+            font-family: sans-serif;
+            width: 23%;
+            font-size: 1.2em;
+        }
+
+        input {
+            height: 3em;
+            width: 70%;
+            border: 1.5px solid rgb(157, 156, 156);
+            border-radius: 1em;
+            padding-left: 1.5em;
+            outline: none;
+        }
+
+        select {
+            height: 3em;
+            width: 70%;
+            border: 1.5px solid rgb(157, 156, 156);
+            border-radius: 1em;
+            color: rgb(103, 102, 102);
+            padding-left: 1.5em;
+        }
+    }
+
+    .note {
+        /* border: 1px solid black; */
+        display: flex;
+        gap: 1em;
+        height: 3.8em;
+        align-items: center;
+        color: rgb(103, 102, 102);
+
+        p {
+            font-family: sans-serif;
+            width: 23%;
+            font-size: 1.2em;
+        }
+
+        input {
+            width: 70%;
+            height: 100%;
+            padding-left: 1em;
+            outline: none;
+            border: 1.5px solid rgb(156, 155, 155);
+        }
+    }
+
+    .date_time {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        div {
+            display: flex;
+            gap: 2em;
+            width: 15%;
+
+            /* border: 1px solid black; */
+            p {
+                width: 100%;
+                color: rgb(193, 139, 139);
+            }
+        }
+    }
+
+    .btnbox {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .btn {
+        height: 2.4em;
+        font-size: 1.2em;
+        width: 15%;
+        background-color: red;
+        color: white;
+        border: none;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        transform: scale(1.1);
+        transition: all 0.3s ease-in;
+        cursor: pointer;
+    }
+
+    .btn:active {
+        transform: scale(1.0);
+        box-shadow: none;
+    }
+}

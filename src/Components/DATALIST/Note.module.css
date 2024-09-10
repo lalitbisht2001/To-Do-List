@@ -1,0 +1,72 @@
+.main {
+    width: 100%;
+    height: 100vh;
+}
+
+.heading {
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    font-size: 5em;
+    font-family: FreeMono, monospace;
+}
+
+.list_box {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    padding: 4em 6em;
+    gap: 3em;
+}
+
+.box {
+    height: 30vh;
+    padding: 1em;
+    display: flex;
+    border-radius: 0.7em;
+    flex-direction: column;
+    gap: 0.9em;
+    width: 20%;
+    background-color: whitesmoke;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.name {
+    font-family: sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-size: 1.3em;
+    font-weight: 600;
+}
+
+.date {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    font-family: Sans, sans-serif;
+
+    span {
+        font-weight: bold;
+    }
+}
+
+.note {
+    font-family: Sans, sans-serif;
+    text-transform: capitalize;
+    border: 1px solid red;
+    height: 4em;
+}
+
+.time {
+    display: flex;
+    justify-content: end;
+    font-size: 0.8em;
+    font-weight: bold;
+    font-family: Sans, sans-serif
+}

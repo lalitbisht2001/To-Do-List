@@ -1,0 +1,159 @@
+.navbar {
+    height: 12vh;
+    width: 100%;
+    background-image: url('/public/background.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.heading {
+    font-size: 3em;
+    letter-spacing: 0.3em;
+    font-family: sans-serif;
+    color: white;
+    font-weight: 700;
+}
+
+.calender {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    left: 90%;
+    bottom: 10%;
+    /* border: 1px solid black; */
+    color: white;
+    gap: 0.4em;
+}
+
+.icon {
+    font-size: 0.9em;
+}
+
+.date {
+    color: white;
+    font-size: 0.9em;
+    /* color: rgb(66, 58, 58); */
+    letter-spacing: 0.01em;
+    bottom: 10%;
+    font-family: Arial, sans-serif;
+}
+
+
+@media screen and (max-width : 1200px) {
+    .navbar {
+        height: 12vh;
+        width: 100%;
+        background-image: url('/public/background.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-transform: uppercase;
+        position: relative;
+    }
+
+    .heading {
+        font-size: 3em;
+        letter-spacing: 0.3em;
+        font-family: sans-serif;
+        color: white;
+        font-weight: 700;
+    }
+
+    .calender {
+        display: flex;
+        position: absolute;
+        align-items: center;
+        left: 87%;
+        bottom: 10%;
+        color: white;
+        gap: 0.4em;
+        background-color: rgb(219, 192, 143);
+        background-color: transparent;
+    }
+
+    .icon {
+        font-size: 0.9em;
+    }
+
+    .date {
+        color: white;
+        font-size: 0.9em;
+        /* color: rgb(66, 58, 58); */
+        letter-spacing: 0.01em;
+        bottom: 10%;
+        font-family: Arial, sans-serif;
+    }
+
+}
+
+@media screen and (max-width : 740px) {
+    .navbar {
+        height: 12vh;
+        width: 100%;
+        background-image: url('/public/background.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-transform: uppercase;
+        position: relative;
+    }
+
+    .heading {
+        font-size: 2em;
+        letter-spacing: 0.2em;
+        font-family: sans-serif;
+        color: white;
+        font-weight: 700;
+        /* margin-right: 24%; */
+    }
+
+    .calender {
+        display: flex;
+        width: 17%;
+        /* border: 1px solid black; */
+        position: absolute;
+        align-items: center;
+        left: 80%;
+        bottom: 8%;
+        color: white;
+        gap: 0.4em;
+        background-color: rgb(219, 192, 143);
+        background-color: transparent;
+    }
+
+    .icon {
+        font-size: 0.9em;
+    }
+
+    .date {
+        color: white;
+        font-size: 0.8em;
+        /* color: rgb(66, 58, 58); */
+        letter-spacing: 0.01em;
+        bottom: 10%;
+        font-family: Arial, sans-serif;
+    }
+
+    .menu_icon {
+        font-size: 24px;
+        cursor: pointer;
+        color: white;
+        margin-left: 5%;
+        position: absolute;
+        top: 35%;
+        left: 0%;
+    }
+
+}

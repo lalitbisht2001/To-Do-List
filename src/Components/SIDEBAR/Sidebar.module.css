@@ -1,0 +1,369 @@
+.main {
+    width: 100%;
+    /* border: 4px solid black; */
+    height: 110vh;
+    display: flex;
+}
+
+.sidebar {
+    width: 20%;
+    height: 100%;
+    /* border: 1px solid red; */
+    font-family: Helvetica, sans-serif;
+    background-color: whitesmoke;
+}
+
+.box1 {
+    width: 100%;
+    height: 26%;
+    /* border: 1px solid black; */
+    padding: 2.8em 2em;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.logo {
+    .name {
+        font-size: 2.2em;
+        font-weight: 600;
+        color: orange;
+    }
+
+    span {
+        color: black;
+    }
+}
+
+.quote {
+    padding-left: 0.3em;
+    font-size: 0.8em;
+    color: rgb(86, 86, 86);
+}
+
+.account {
+    border: 1.5px solid rgb(150, 150, 150);
+    height: 3em;
+    border-radius: 0.5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box2 {
+    /* border: 1px solid black; */
+    height: 38%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2em;
+    padding: 0.3em 1em;
+}
+
+.menu {
+    color: rgb(104, 101, 101);
+}
+
+.menu_box {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    padding-left: 0.7em;
+    color: rgb(134, 134, 134);
+}
+
+.page {
+    display: flex;
+    align-items: center;
+    border-radius: 0.5em;
+    padding-left: 0.8em;
+    gap: 1em;
+    width: 90%;
+    /* border: 1px solid orange; */
+    height: 2em;
+    cursor: pointer;
+}
+
+.page:hover {
+    background-color: orange;
+    color: white;
+}
+
+@media screen and (max-width : 1200px) {
+    .main {
+        width: 100%;
+        height: 110vh;
+        display: flex;
+    }
+
+    .sidebar {
+        width: 20%;
+        height: 100%;
+        /* border: 1px solid red; */
+        font-family: Helvetica, sans-serif;
+        background-color: whitesmoke;
+    }
+
+    .box1 {
+        width: 100%;
+        height: 21%;
+        /* border: 1px solid black; */
+        padding: 0.8em 2em;
+        display: flex;
+        flex-direction: column;
+        gap: 1.2em;
+    }
+
+    .logo {
+        .name {
+            font-size: 1.4em;
+            font-weight: 600;
+            color: orange;
+        }
+
+        span {
+            color: black;
+        }
+    }
+
+    .quote {
+        padding-left: 0.3em;
+        font-size: 0.7em;
+        color: rgb(86, 86, 86);
+    }
+
+    .account {
+        border: 1.5px solid rgb(150, 150, 150);
+        height: 2.3em;
+        border-radius: 0.5em;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .box2 {
+        /* border: 1px solid black; */
+        height: 40%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+        padding: 0.3em 0.5em;
+    }
+
+    .menu {
+        color: rgb(104, 101, 101);
+    }
+
+    .menu_box {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5em;
+        padding-left: 0.7em;
+        color: rgb(134, 134, 134);
+    }
+
+    .page {
+        display: flex;
+        align-items: center;
+        border-radius: 0.5em;
+        padding-left: 0.8em;
+        gap: 1em;
+        width: 90%;
+        /* border: 1px solid orange; */
+        height: 2em;
+        cursor: pointer;
+    }
+
+    .page:hover {
+        background-color: orange;
+        color: white;
+    }
+}
+
+@media screen and (max-width : 740px) {
+    .main {
+        width: 100%;
+        height: 110vh;
+        display: flex;
+        position: relative;
+        z-index: 1;
+    }
+
+    .sidebar {
+        width: 20%;
+        height: 100%;
+        font-family: Helvetica, sans-serif;
+        background-color: whitesmoke;
+    }
+
+    .box1 {
+        width: 100%;
+        height: 21%;
+        /* border: 1px solid black; */
+        padding: 0.8em 2em;
+        display: flex;
+        flex-direction: column;
+        gap: 1.2em;
+    }
+
+    .logo {
+        .name {
+            font-size: 1.4em;
+            font-weight: 600;
+            color: orange;
+        }
+
+        span {
+            color: black;
+        }
+    }
+
+    .quote {
+        padding-left: 0.3em;
+        font-size: 0.7em;
+        color: rgb(86, 86, 86);
+    }
+
+    .account {
+        border: 1.5px solid rgb(150, 150, 150);
+        height: 2.3em;
+        border-radius: 0.5em;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .box2 {
+        /* border: 1px solid black; */
+        height: 40%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+        padding: 0.3em 0.5em;
+    }
+
+    .menu {
+        color: rgb(104, 101, 101);
+    }
+
+    .menu_box {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5em;
+        padding-left: 0.7em;
+        color: rgb(134, 134, 134);
+    }
+
+    .page {
+        display: flex;
+        align-items: center;
+        border-radius: 0.5em;
+        padding-left: 0.8em;
+        gap: 1em;
+        width: 90%;
+        /* border: 1px solid orange; */
+        height: 2em;
+        cursor: pointer;
+    }
+
+    .page:hover {
+        background-color: orange;
+        color: white;
+    }
+}
+
+@media screen and (max-width : 550px) {
+    .main {
+        width: 100%;
+        height: 117vh;
+        display: flex;
+        border: 2px solid yellow;
+        position: relative;
+        z-index: 1;
+    }
+
+    .sidebar {
+        width: 20%;
+        height: 100%;
+        font-family: Helvetica, sans-serif;
+        background-color: whitesmoke;
+    }
+
+    .box1 {
+        width: 100%;
+        height: 21%;
+        /* border: 1px solid black; */
+        padding: 0.8em 2em;
+        display: flex;
+        flex-direction: column;
+        gap: 1.2em;
+    }
+
+    .logo {
+        .name {
+            font-size: 1.4em;
+            font-weight: 600;
+            color: orange;
+        }
+
+        span {
+            color: black;
+        }
+    }
+
+    .quote {
+        padding-left: 0.3em;
+        font-size: 0.7em;
+        color: rgb(86, 86, 86);
+    }
+
+    .account {
+        border: 1.5px solid rgb(150, 150, 150);
+        height: 2.3em;
+        border-radius: 0.5em;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .box2 {
+        /* border: 1px solid black; */
+        height: 40%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+        padding: 0.3em 0.5em;
+    }
+
+    .menu {
+        color: rgb(104, 101, 101);
+    }
+
+    .menu_box {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5em;
+        padding-left: 0.7em;
+        color: rgb(134, 134, 134);
+    }
+
+    .page {
+        display: flex;
+        align-items: center;
+        border-radius: 0.5em;
+        padding-left: 0.8em;
+        gap: 1em;
+        width: 90%;
+        /* border: 1px solid orange; */
+        height: 2em;
+        cursor: pointer;
+    }
+
+    .page:hover {
+        background-color: orange;
+        color: white;
+    }
+}
